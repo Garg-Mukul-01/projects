@@ -20,7 +20,7 @@ function startGame() {
     let j = Math.floor(Math.random() * 210) + 1;
     mosquito.style.left = i + "px";
     mosquito.style.top = j + "px";
-    mosquito.src = "./img/01.png";
+    mosquito.src = "./01.png";
   }, 1300);
   let timer = setInterval(() => {
     second--;
@@ -47,6 +47,6 @@ function hitMosq() {
   if (isGameStart) {
     hitCount++;
     document.getElementById("totalHits").innerText = hitCount;
-    mosquito.src = "./img/02.png";
+    mosquito.src = "./02.png";
   }
 }
