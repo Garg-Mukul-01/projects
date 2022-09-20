@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mosquito-Game</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="heading">
+    <h1 class="main-heading">Mosquito Game</h1>
+  </div>
+  <div class="main-container">
+    <div id="show-first">
+      <img src="./img/brazil-g6e86924d6_640.png" id="img-show" />
+      <span id="first-text">!! Hit Me If You Can !!</span>
+      <span>!! Hit the mosquito with in 30 seconds as much time as you can. !!
+      </span>
+    </div>
+    <img src="./img/01.png" alt="mosquito" onclick="hitMosq()" id="mosquito" />
+  </div>
+  <div class="footer">
+    <div class="buttons">
+      <button onclick="startGame()" id="Start-btn">Start-Game</button>
+    </div>
+    <div class="heading-section">
+      <span id="heading-section">Total&nbsp;Hits&nbsp;:-&nbsp;<span id="totalHits">0</span></span>
+    </div>
+    <div class="timer-section">
+      <span id="timer"></span>
+    </div>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
