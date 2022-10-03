@@ -74,3 +74,39 @@
   font-size: 25px;
   font-weight: bold;
 }
+
+/* Media Queries */
+
+@media screen and (max-width:425px) {
+  .main-heading {
+    text-align: center;
+    height: 30px;
+    font-size: 1.3rem;
+}
+#show-first>img{
+    width:35vw;
+    height:20vh;
+}
+#first-text{
+  font-size: 1.5rem;
+}
+#first-text+span{
+  font-size: 0.7rem;
+}
+.main-container{
+  height:auto;
+  width:auto;
+}
+.buttons{
+  padding: 2px 6px;
+}
+.heading-section>span{
+  font-size: 1.2rem;
+}
+#timer{
+  font-size: 0.8rem;
+}
+#mosquito{
+  width: 15vw;
+}
+}
