@@ -23,7 +23,7 @@ function startGame() {
     mosquito.style.left = i + "px";
     mosquito.style.top = j + "px";
     mosquito.src = "./01.png";
-  }, 1300);
+  }, 1100);
   let timer = setInterval(() => {
     second--;
     document.getElementById("timer").innerText = second + " Seconds left";
