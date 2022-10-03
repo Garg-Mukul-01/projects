@@ -82,7 +82,7 @@
     text-align: center;
     height: 30px;
     font-size: 1.3rem;
-}
+  }
 #show-first>img{
     width:35vw;
     height:20vh;
@@ -93,6 +93,10 @@
 #first-text+span{
   font-size: 0.7rem;
 }
+#hit-text{
+  font-size : 0.6rem;
+  }
+  
 .main-container{
   height:auto;
   width:auto;
