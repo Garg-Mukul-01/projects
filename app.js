@@ -18,11 +18,11 @@ function startGame() {
   }
   hits.style.display = "none";
   const time = setInterval(() => {
-    let i = Math.floor(Math.random() * (width*0.85))+0.5;
-    let j = Math.floor(Math.random() * (height*0.7));
+   let i = Math.floor(Math.random() * (width*0.55))+0.6;
+    let j = Math.floor(Math.random() * (height*0.55));
     mosquito.style.left = i + "px";
     mosquito.style.top = j + "px";
-    mosquito.src = "./img/01.png";
+    mosquito.src = "./01.png";
   }, 1300);
   let timer = setInterval(() => {
     second--;
@@ -49,6 +49,6 @@ function hitMosq() {
   if (isGameStart) {
     hitCount++;
     document.getElementById("totalHits").innerText = hitCount;
-    mosquito.src = "./img/02.png";
+    mosquito.src = "./02.png";
   }
 }
