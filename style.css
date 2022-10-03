@@ -13,7 +13,7 @@ body{
   height: 50px;
 }
 .main-container {
-  min-height:74vh;
+  min-height:72vh;
   width: 100%;
   background-color: rgb(255, 255, 60);
 }
@@ -71,7 +71,7 @@ body{
 
 @media screen and (max-width:430px) {
   .main-container {
-    min-height:80vh;
+    min-height:70vh;
     width: 80vw;
     background-color: rgb(255, 255, 60);
   }
